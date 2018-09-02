@@ -2,7 +2,7 @@
 
 This project contains all kind of RecyclerView Demos.
 
-<h2>List of RecyclerView Demo in this project<h2>
+<h2>List of RecyclerView Demo in this project</h2>
 <ul>
 <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewLinearLayoutActivity.kt" rel="nofollow">RecyclerView with LinearLayoutManager</a></li>
   <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewGridLayoutActivity.kt" rel="nofollow">RecyclerView with GridLayoutManager</a></li>
@@ -11,53 +11,30 @@ This project contains all kind of RecyclerView Demos.
    <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewLoadMoreDataActivity.kt">RecyclerView with Load More Data</a></li>
 </ul>
 
-Prerequisites
-What things you need to install the software and how to install them
+<h2>List of Useful RecyclerView Blogs</h2>
+<ul>
+<li><a href="http://www.android4dev.com/how-to-display-list-of-data-into-recyclerview/" rel="nofollow">RecyclerView with LinearLayoutManager</a></li>
+  <li><a href="http://www.android4dev.com/how-to-integrate-recyclerview-using-gridlayoutmanager-android/">RecyclerView with GridLayoutManager</a></li>
+    <li><a href="http://www.android4dev.com/how-to-use-recyclerview-with-staggeredgridlayoutmanager-kotlin/">RecyclerView with StaggeredGridLayoutManager</a></li>
+   <li><a href="http://www.android4dev.com/recyclerview-multiple-view-types-header-footer/">RecyclerView with Different ViewTypes</a></li>
+   <li><a href="">RecyclerView with Load More Data</a></li>
+</ul>
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+<h2>Contant me</h2>
 
-Say what the step will be
+Please contact me if you want any other demo related to android integratinon. 
 
-Give the example
-And repeat
+<a href="https://www.facebook.com/Android-ios-DevOps-367550067088277/?ref=aymt_homepage_panel" rel="nofollow">Facebook</a>
+<a href="https://www.instagram.com/android4dev/" rel="nofollow">Instagram</a>
+<a href="https://twitter.com/lokesh_desai?lang=en-gb" rel="nofollow">Twitter</a>
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+<h2>Website</h2>
 
-Running the tests
-Explain how to run the automated tests for this system
+Please visit to my site for more blogs.
+<a href="http://www.android4dev.com/" rel="nofollow">www.android4dev.com</a>
 
-Break down into end to end tests
-Explain what these tests test and why
+<h2>Authors</h2>
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+Lokesh Desai
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
