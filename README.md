@@ -25,8 +25,11 @@ This project contains all kind of RecyclerView Demos.
 Please contact me if you want any other demo related to android integratinon. 
 
 <a href="https://www.facebook.com/Android-ios-DevOps-367550067088277/?ref=aymt_homepage_panel" rel="nofollow">Facebook</a>
+
 <a href="https://www.instagram.com/android4dev/" rel="nofollow">Instagram</a>
+
 <a href="https://twitter.com/lokesh_desai?lang=en-gb" rel="nofollow">Twitter</a>
+
 
 <h2>Website</h2>
 
