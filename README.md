@@ -1,4 +1,5 @@
-RecyclerViewKotlinDemo
+#RecyclerViewKotlinDemo
+
 This project contains all kind of RecyclerView Demos. 
 
 Getting Started
