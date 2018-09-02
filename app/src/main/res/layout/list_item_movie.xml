@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageMovie"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_avengers" />
+
+    <TextView
+        android:id="@+id/textMovieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/imageMovie"
+        tools:text="Avengers" />
+
+    <TextView
+        android:id="@+id/textMovieViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/imageMovie"
+        app:layout_constraintTop_toBottomOf="@id/textMovieTitle"
+        tools:text="Views: 100" />
+
+    <TextView
+        android:id="@+id/textReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/imageMovie"
+        app:layout_constraintTop_toBottomOf="@id/textMovieViews"
+        tools:text="Release Date: 16 Feb 2018" />
+
+</android.support.constraint.ConstraintLayout>
