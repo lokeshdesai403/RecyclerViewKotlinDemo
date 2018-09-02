@@ -1,9 +1,15 @@
-#<h1>RecyclerViewKotlinDemo</h1>
+<h1>RecyclerViewKotlinDemo</h1>
 
-This project contains all kind of RecyclerView Demos. 
+This project contains all kind of RecyclerView Demos.
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<h2>List of RecyclerView Demo in this project<h2>
+<ul>
+<li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewLinearLayoutActivity.kt" rel="nofollow">RecyclerView with LinearLayoutManager</a></li>
+  <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewGridLayoutActivity.kt" rel="nofollow">RecyclerView with GridLayoutManager</a></li>
+    <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewStaggeredGridActivity.kt">RecyclerView with StaggeredGridLayoutManager</a></li>
+   <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewHeaderFooterActivity.kt">RecyclerView with Different ViewTypes</a></li>
+   <li><a href="https://github.com/lokeshdesai403/RecyclerViewKotlinDemo/blob/master/app/src/main/java/com/android4dev/recyclerview/RecyclerViewLoadMoreDataActivity.kt">RecyclerView with Load More Data</a></li>
+</ul>
 
 Prerequisites
 What things you need to install the software and how to install them
