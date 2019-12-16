@@ -3,16 +3,18 @@ package com.android4dev.recyclerview
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
+import android.widget.Toast
 import com.android4dev.recyclerview.R.id.recyclerViewMovies
 import com.android4dev.recyclerview.adapter.MovieListAdapter
 import com.android4dev.recyclerview.adapter.MovieListViewHolder
 import com.android4dev.recyclerview.base.BaseActivity
+import com.android4dev.recyclerview.callback.RecyclerViewCallback
 import com.android4dev.recyclerview.model.MovieModel
 import com.android4dev.recyclerview.recyclerview_helper.DividerItemDecoration
 import com.android4dev.recyclerview.recyclerview_helper.VerticalSpaceItemDecoration
 import kotlinx.android.synthetic.main.activity_main.*
 
-class RecyclerViewLinearLayoutActivity : BaseActivity() {
+class RecyclerViewLinearLayoutActivity : BaseActivity(), RecyclerViewCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,9 +30,17 @@ class RecyclerViewLinearLayoutActivity : BaseActivity() {
         recyclerViewMovies.addItemDecoration(DividerItemDecoration(this))
 
         //This will for custom divider
-//        recyclerViewMovies.addItemDecoration(DividerItemDecoration(this, R.drawable.drawable_divider_view))
-        val movieListAdapter = MovieListAdapter()
+        //recyclerViewMovies.addItemDecoration(DividerItemDecoration(this, R.drawable.drawable_divider_view))
+        val movieListAdapter = MovieListAdapter().apply {
+            //            itemClick = { movieTitle ->
+//                Toast.makeText(this@RecyclerViewLinearLayoutActivity, movieTitle, Toast.LENGTH_SHORT).show()
+//            }
+//            onItemLongPress = {movieModel ->
+//                Toast.makeText(this@RecyclerViewLinearLayoutActivity, movieModel.movieId.toString(), Toast.LENGTH_SHORT).show()
+//            }
+        }
         recyclerViewMovies.adapter = movieListAdapter
+        movieListAdapter.setOnCallbackListener(this)
         movieListAdapter.setMovieList(generateDummyData())
     }
 
@@ -59,5 +69,17 @@ class RecyclerViewLinearLayoutActivity : BaseActivity() {
         listOfMovie.add(movieModel)
 
         return listOfMovie
+    }
+
+    override fun onRecycleViewItemClick(movieModel: MovieModel, position: Int) {
+        Toast.makeText(this@RecyclerViewLinearLayoutActivity,
+                movieModel.movieTitle + " == Position == " + position,
+                Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onRecycleViewLongPress(movieModel: MovieModel, position: Int) {
+        Toast.makeText(this@RecyclerViewLinearLayoutActivity,
+                "Movie Id =" + movieModel.movieId.toString() + " == Position == " + position,
+                Toast.LENGTH_SHORT).show()
     }
 }
