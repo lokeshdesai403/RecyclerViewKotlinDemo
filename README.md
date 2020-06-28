@@ -20,6 +20,17 @@ This project contains all kind of RecyclerView Demos.
    <li><a href="">RecyclerView with Load More Data</a></li>
 </ul>
 
+<h2>List of Useful RecyclerView Youtube Videos</h2>
+<ul>
+<li><a href="https://youtu.be/MLbjcYsIC68" rel="nofollow">RecyclerView with LinearLayoutManager</a></li>
+  <li><a href="https://www.youtube.com/watch?v=NHPzLspovPE">RecyclerView with GridLayoutManager</a></li>
+    <li><a href="https://youtu.be/jhrfnLIQXvE">RecyclerView with StaggeredGridLayoutManager</a></li>
+</ul>
+
+<h2>Check My Youtube Channel For latest Android Tutorials</h2>
+https://www.youtube.com/channel/UCRfYkOI9qZKEUbSft8VUbwQ
+
+
 <h2>Contant me</h2>
 
 Please contact me if you want any other demo related to android integratinon. 
